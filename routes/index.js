@@ -67,7 +67,7 @@ router.get("/signup", (req, res) => res.render("signup", { page: "signup" }));
 
 router.get("/logout", function(req, res) {
   req.logout();
-  res.redirect("/"); //로그아웃 후 '/'로 이동
+  res.redirect("/");
 });
 
 router.post("/signup", (req, res, next) => {
