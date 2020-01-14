@@ -1,0 +1,39 @@
+.btn {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.signupform {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 15%;
+  font-size: 20px;
+  text-align: center;
+  height: 30px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0 30px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="email"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="password"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
